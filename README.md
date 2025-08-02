@@ -1,38 +1,26 @@
-#Projeto Lista de Compras - Utilizado no Curso Objetos no JavaScript - Escola Front-End Alura
+## Lista de Compras 🛒
+Projeto desenvolvido durante o curso da Alura com foco em JavaScript.
 
-Neste arquivo encontram-se modelos de códigos que serão utilizados no decorrer do curso. 
+## Descrição do projeto
+Aplicação para criar e organizar uma lista de compras. Com ela, é possível:
 
-Código modelo da li "Comprados":
+- Adicionar novos itens à lista;
 
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" checked class="is-clickable" />  
-            <span class="itens-comprados is-size-5"></span>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
+- Marcar os itens como comprados, movendo-os automaticamente para a seção "Comprados";
 
-Código modelo da li "Lista de compras": 
+- Editar itens da lista;
 
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" class="is-clickable" />
-            <input type="text" class="is-size-5" value=""></input>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
+- Excluir itens da lista ou da seção de comprados.
 
-Input com código refatorado:
+## Tecnologias utilizadas
+- HTML
 
-    <div>
-        <input type="checkbox" checked class="is-clickable" />  
-        <span class="itens-comprados is-size-5">${elemento.valor}</span>
-    </div>
+- CSS
 
-Ícones de edição:
+- JavaScript
 
-    <i class="fa-regular fa-floppy-disk is-clickable"></i><i class="fa-regular is-clickable fa-pen-to-square editar"></i>
+## Objetivo do projeto
+Praticar a manipulação do DOM, eventos e interatividade com JavaScript puro, além de reforçar conceitos de organização e responsividade em interfaces simples.
+
+![image](/listaDeCompras.png)
+
